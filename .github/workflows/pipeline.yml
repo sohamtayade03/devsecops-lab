@@ -21,7 +21,7 @@ jobs:
     - name: Run Semgrep Scan
       uses: returntocorp/semgrep-action@v1
       with:
-        config: "p/security-audit"
+        config: "auto"
 
     - name: Run Security Audit
       run: npm audit --audit-level=high
