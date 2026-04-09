@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/sohamtayade03/devsecops-lab#readme",
   "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "csurf": "^1.11.0",
     "express": "^4.17.1"
   }
 }
