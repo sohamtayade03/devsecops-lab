@@ -1,10 +1,10 @@
-FROM node:18-alpine
+FROM node:18-alpine3.18
 
 WORKDIR /app
 
 COPY package*.json ./
 
-RUN npm install --only=production
+RUN npm install --omit=dev
 
 COPY . .
 
